@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "kuro",
+  "version": "1.0.0",
+  "name": "Kuro",
+  "description": "Anarsi sunucusu icin client-side yardimci mod (Fly, AutoTotem, AutoCrystal, StorageESP, BlockESP, PlayerESP, BaseList).",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["kuro.Kuro"]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.4",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
